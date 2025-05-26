@@ -45,11 +45,10 @@ ul {
 }
 
 button {
-    background-color: rgb(36, 116, 166);
+    background-color: #3882F6;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
-
 }
 
 .info-header{
@@ -114,4 +113,35 @@ button {
 
 .hover-box:hover .hover-content{
     display: inline;
+}
+
+.fourth-section {
+    background-color: #3882F6;
+    display: flex;
+    padding: 50px 100px;
+    margin: 100px 175px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.fourth-section-left{
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.last-joke-intro {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.last-joke-text{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.fourth-section button {
+    border-color: white;
 }
