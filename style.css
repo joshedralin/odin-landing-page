@@ -6,6 +6,7 @@ body {
 .header{
     /* display: flex; */
     background-color: #1F2937;
+    margin-bottom: 40px;
 }
 
 .top-header, .bottom-header{
@@ -38,7 +39,7 @@ ul {
     color: #F9FAF8
 }
 
-li, div p {
+.top-header li, .bottom-header div p {
     font-size: 18px; 
     color: #E5E7EB;
 }
@@ -49,4 +50,35 @@ button {
     padding: 10px 20px;
     border-radius: 5px;
 
+}
+
+.info-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.second-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0px 200px;
+    gap: 30px;
+}
+
+.image-group{
+    color: #1F2937;
+    size: 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.image-group img {
+    height: 280px;
+    width: 200px;
 }
