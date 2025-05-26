@@ -36,7 +36,7 @@ ul {
 .hero-main-text {
     font-weight: 900px;
     font-size: 48px;
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
 .top-header li, .bottom-header div p {
@@ -144,4 +144,18 @@ button {
 
 .fourth-section button {
     border-color: white;
+}
+
+.footer{
+    display:flex;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 24px;
+    font-size: 14px;
+}
+
+.footer p{
+    margin-bottom: 4px;
 }
